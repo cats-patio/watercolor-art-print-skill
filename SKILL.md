@@ -1,25 +1,24 @@
 ---
-name: Vintage Watercolor Postcard Generator
-description: Converts photos into clean, vintage hand-painted watercolor postcards with a white border, strict exclusion of postmarks, stamps, or title.
+name: Vintage Watercolor Art Print Generator
+description: Converts photos into clean, vintage hand-painted watercolor artworks with a pristine white border frame.
 ---
 
-# Vintage Watercolor Postcard Skill
+# Vintage Watercolor Art Print Skill
 
 ## Core Style Specification
-- **Style**: Authentic vintage hand-painted watercolor illustration, soft natural color bleeding, visible brush strokes, wet-on-wet technique, translucent watercolor washes, delicate paper texture, gentle pastel colors, soft dreamy lighting.
-- **Layout**: Clean white border frame surrounding the image, vintage postcard proportions, minimalist paper aesthetic.
-- **Color Fidelity**: Preserve and reflect original photo color tones accurately.
+- **Art Style**: Authentic vintage hand-painted watercolor illustration, soft natural color bleeding, visible brush strokes, wet-on-wet technique, translucent watercolor washes, delicate paper texture, gentle pastel palette, soft dreamy lighting.
+- **Presentation & Layout**: Pure art print presented inside a wide, clean white paper mat border. Pristine blank margins, 3:2 aspect ratio layout.
+- **Color Fidelity**: Preserve and accurately render original photo color tones in soft watercolor washes.
 
-## Strict Exclusions (Negative Prompt Rules)
-Do NOT include any of the following elements under any circumstances:
-- **No Stamps / Postage Stamps**
-- **No Postmarks / Ink Stamps / Cancel Marks**
-- **No Text / Titles / Typography / Captions / Overlays**
-- **No Postcard Back Details / Writing Lines / Addresses**
+## Positive Aesthetic Framing (Pristine Visuals)
+Focus exclusively on rendering a pure fine art illustration:
+- **Border**: Pristine unprinted white paper margin surrounding the illustration.
+- **Composition**: Clean edge-to-edge watercolor painting centered on paper.
+- **Content**: 100% pure painting output only.
 
-## Direct Generation Prompt Template
-Generate an authentic hand-painted watercolor painting based on this image. Features: soft natural color bleeding, visible wet-on-wet brush strokes, translucent watercolor washes, delicate paper texture, gentle pastel palette, soft dreamy lighting. Presented strictly as a pristine watercolor artwork inside a clean white border frame. Clean aesthetic, pure painting only, no text, no title, no stamps, no postmarks, no postage marks, no ink seals.
+## Direct Prompt Template
+Generate an authentic hand-painted watercolor painting based on this image. Features: soft natural color bleeding, visible wet-on-wet brush strokes, translucent watercolor washes, delicate paper texture, gentle pastel palette, soft dreamy lighting. Presented strictly as a pure fine art watercolor print centered inside a wide, pristine white paper border frame. Clean minimalist aesthetic, blank paper margins, pure illustration only.
 
 ## Guidelines & Constraints
 - **Best Input**: Landscape photos, scenic nature, city streets, historic architecture.
-- **Avoid**: Close-up human portraits, text-heavy images, complex graphics.
+- **Avoid**: Close-up human portraits or photo inputs with existing heavy text overlay.
