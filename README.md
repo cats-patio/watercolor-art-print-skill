@@ -1,10 +1,21 @@
-# 🎨 水彩复古明信片 AI Skill
-将风景图片转化为复古手绘水彩风格明信片的 Prompt / Skill 模板。
-## 💡 使用方法
-1. 在 Canva AI、Midjourney 等 AI 绘图工具中上传照片。
-2. 结合 `SKILL.md` 中的 Prompt 提交生成。
-## 📌 使用建议
-- **推荐**：风景、建筑、街道
-- **不推荐**：人物肖像
-## 📄 开源协议
-本项目采用 [MIT License](LICENSE) 协议开源。
+# Vintage Watercolor Postcard Skill
+
+An AI Agent Skill designed to convert photos into clean, vintage hand-painted watercolor postcards featuring a minimal white border frame—free of stamps, postmarks, titles, or text overlays.
+
+---
+
+## 🎨 Features
+
+* **Authentic Watercolor Aesthetic**: Incorporates wet-on-wet technique, soft color bleeding, translucent washes, and delicate paper texture.
+* **Minimalist Postcard Frame**: Adds a clean, balanced white border frame to frame the artwork.
+* **Strict Negative Constraints**: Explicitly removes unwanted postal artifacts (stamps, postmarks, cancel marks, text, titles).
+* **Color Preservation**: Retains the natural color palette and mood of the original photo.
+
+---
+
+## 📁 Repository Structure
+
+```text
+├── SKILL.md         # Core Skill definition & execution prompt rules
+├── README.md        # Documentation and usage guide
+└── LICENSE          # MIT License
