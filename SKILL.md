@@ -1,22 +1,23 @@
 ---
-name: Vintage Watercolor Postcard Skill
-description: Converts photos into authentic hand-painted watercolor postcards with a subtle white deckled border on watercolor paper.
+name: Photo to Watercolor Art Print
+description: Converts photos into clean, minimalist hand-painted watercolor art prints with a subtle natural border. Zero text, zero stamps, zero graphics.
 ---
 
-# Vintage Watercolor Postcard Skill
+# Photo to Watercolor Art Print Skill
 
-## Core Style Specification
-- **Art Style**: Authentic fine art watercolor painting, soft natural color bleeding, wet-on-wet technique, translucent watercolor washes, visible cold-press watercolor paper texture, gentle pastel tone, soft natural lighting.
-- **Card Format**: A physical 4x6 watercolor postcard card stock. The painting fills the paper with a subtle, narrow white border around the edges.
-- **Border Style**: Thin natural white paper margin with delicate hand-painted watercolor deckled edges, slightly uneven paint bleed along the inner borders.
+## Core Vision Definition
+- **Primary Goal**: Transform input photograph into an authentic hand-painted watercolor illustration.
+- **Medium Style**: Cold-press watercolor paper stock, soft color bleeding, translucent washes, visible paper grain, gentle natural lighting.
+- **Framing**: Clean edge, subtle natural white margin around the painting.
 
-## Strict Content Constraints
-- **Format**: Pure visual art card only.
-- **Exclusions**: 100% text-free, zero titles, zero captions, zero postmarks, zero stamps, zero postal lines, no digital matting frames.
+## Absolute Exclusion Principles (Hard Constraints)
+- **NO TEXT**: Absolutely zero typography, zero titles, zero captions, zero greetings, zero watermarks.
+- **NO GRAPHICS**: Zero stamps, zero postmarks, zero ink seals, zero lines, zero post card layouts.
+- **NO COLLAGE**: Pure 1:1 image-to-painting translation. Do NOT add decorative elements, secondary photos, or split layouts.
 
 ## Direct Prompt Template
-A delicate hand-painted watercolor artwork based on this photo, painted on a piece of cold-press watercolor postcard paper. Soft color bleeding, translucent watercolor washes, visible paper grain, gentle pastel lighting. The painting is framed by a subtle, thin white paper margin with natural watercolor deckled edges where the paint bleeds onto the paper border. Pure hand-painted aesthetic, 4x6 postcard aspect ratio, 100% text-free, clean paper card stock, no postmarks, no stamps, no text overlays.
+A pure, minimalist hand-painted watercolor painting based directly on this input photograph. Rendered in a realistic wet-on-wet watercolor style with soft translucent washes, visible cold-press paper grain, and natural color bleeding. The painting features a clean, narrow white paper margin with subtle natural watercolor edges. 100% pure illustration only, completely text-free, no graphics, no stamps, no postmarks, no logos, no titles, no decorative overlays.
 
-## Guidelines & Constraints
-- **Best Input**: Scenic landscape, lakes, rivers, architecture, outdoor lifestyle scenes.
-- **Avoid**: Close-up studio portraits.
+## Guidelines
+- **Best Input**: Landscapes, architecture, street scenes, outdoor scenic views.
+- **Avoid**: Extremely close-up human faces.
